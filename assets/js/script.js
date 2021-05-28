@@ -95,7 +95,7 @@ $(".list-group").on("click", "span", function(){
 
   $(dateInput).trigger("focus");
 })
-
+//$(".card-header").border-radius(15%);
 $(".list-group").on("blur", "input[type='text']", function(){
   var date = $(this)
   .val()
